@@ -18,8 +18,7 @@ Este projeto é um **leitor de QR Code** desenvolvido em **Java**, capaz de capt
 
 - **Java 8+**
 - **ZXing** (Zebra Crossing) – biblioteca para leitura de códigos de barras e QR Code
-- (opcional) **Java Swing / JavaFX** – para interface gráfica
-- (opcional) **OpenCV** – para captura via webcam (caso não use ZXing + webcam diretamente)
+- **AWS** (Sdk) - para hospedagem do serviço
 
 ---
 
@@ -27,7 +26,7 @@ Este projeto é um **leitor de QR Code** desenvolvido em **Java**, capaz de capt
 
 Antes de executar o projeto, você precisará de:
 
-- [JDK 8 ou superior](https://www.oracle.com/java/technologies/javase-downloads.html)
+- [JDK 8 ou superior](https://www.oracle.com/java/technologies/javase-downloads.html) (no caso, estou utilizando java 17)
 - [Maven](https://maven.apache.org/) ou outro gerenciador de dependências (caso o projeto use)
 - Webcam (para leitura em tempo real)
 
@@ -37,5 +36,5 @@ Antes de executar o projeto, você precisará de:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/leitor-qr-java.git
-   cd leitor-qr-java
+   git clone https://github.com/HenriqueCliri/qrcode-read.git
+   cd qrcode-read
